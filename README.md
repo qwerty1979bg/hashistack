@@ -4,10 +4,12 @@ I will be using [HashiCups](https://github.com/hashicorp-demoapp) (a demo coffee
 
 -=-=-
 
-Will try this on GCP, so you need to provide the credentials and the project number
+Will try this on GCP, so you need to provide the credentials and the project number:
 
+```
 export GOOGLE_PROJECT="123123123123"
 export GOOGLE_CREDENTIALS="credentials.json"
+```
 
 Task: Spin up a VM that will be used for Consul server
 
